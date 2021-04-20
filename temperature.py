@@ -1,3 +1,4 @@
+def to_fahrenheit (temperature):
 	fahrenheit = (temperature * (9 / 5)) + 32 
 	return fahrenheit 
     
