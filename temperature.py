@@ -1,4 +1,3 @@
-def to_fahrenheit (temperature):
 	fahrenheit = (temperature * (9 / 5)) + 32 
 	return fahrenheit 
     
@@ -16,8 +15,6 @@ f = to_fahrenheit(100)
 c = to_celsius(32)
 k = to_kelvin(-273.15)
 m = to_fahrenheit(to_celsius(98.6))
-
-#TODO a generic string for message + parameter for to_kelvin
 
 print("fahrenheit: " + str(f))
 print("celsius: " + str(c))
